@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(224, 223, 223);
+}
+.navbar{
+    background-color: rgb(211, 206, 228)  ;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-center{
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+.menu-icon{
+    color: rgb(134, 87, 161); 
+    font-size: 30px;
+}
+.nav-title{
+    color: rgb(80, 79, 79);
+    font-size: 22px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+.cart-btn{
+    color: rgb(134, 87, 161);
+    font-size: 30px;
+}
+.cart-items{
+    background-color: rgb(219, 94, 119);
+    color: rgb(211, 206, 228);
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 100%;
+    margin-top: -40px;
+    margin-left: 25px;
+}
+
+    /* end of nav */
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.products-center{
+    width: 100%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 3rem;
+    grid-row-gap: 3.5rem;
+    padding: 0 1rem;
+}
+.section-title{
+    padding: 35px 0;
+    color: rgb(77, 77, 77);
+    font-family: fantasy;
+    font-size: 22px;
+
+}
+.product{
+    background-color: rgb(237, 237, 248);
+    padding-bottom: 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.product-img{
+    width: 100%;
+    min-height: 120px;
+    border-radius: 8px 8px 0 0;
+}
+.img-container{
+    width: 100%;
+}
+.product-desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+    width: 100%;
+}
+.add-to-cart{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: rgb(211, 206, 228);
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+    padding: 5px 20px;
+    margin-top: 1.5rem;
+    font-family: fantasy;
+
+}
+.product-title,.product-price {
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    font-family: fantasy;
+    font-size: 15px;
+}
